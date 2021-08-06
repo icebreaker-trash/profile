@@ -3,7 +3,8 @@
   "version": "1.0.0",
   "description": "yangqiming's resume",
   "scripts": {
-    "dev": "node ./lib/cli.js"
+    "dev": "node ./lib/cli.js",
+    "publish:npm": "yarn publish --registry https://registry.npmjs.org/"
   },
   "bin": "lib/cli.js",
   "files": [
