@@ -1,0 +1,38 @@
+{
+  "name": "yangqiming",
+  "version": "1.0.0",
+  "description": "yangqiming's resume",
+  "scripts": {
+    "dev": "node ./lib/cli.js"
+  },
+  "bin": "lib/cli.js",
+  "files": [
+    "lib"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/sonofmagic/profile.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/sonofmagic/profile/issues"
+  },
+  "homepage": "https://github.com/sonofmagic/profile#readme",
+  "dependencies": {
+    "boxen": "^5.0.1",
+    "chalk": "^4.1.2",
+    "dayjs": "^1.10.6",
+    "node-emoji": "^1.10.0",
+    "oo-ascii-tree": "^1.32.0",
+    "qrcode-terminal": "^0.12.0",
+    "table": "^6.7.1"
+  },
+  "devDependencies": {
+    "eslint": "7.12.1",
+    "eslint-config-standard": "^16.0.3",
+    "eslint-plugin-import": "2.22.1",
+    "eslint-plugin-node": "11.1.0",
+    "eslint-plugin-promise": "4.2.1"
+  }
+}
