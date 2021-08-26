@@ -1,6 +1,6 @@
 {
   "name": "yangqiming",
-  "version": "1.0.3",
+  "version": "1.0.4",
   "description": "yangqiming's resume",
   "scripts": {
     "dev": "node ./lib/cli.js",
@@ -23,15 +23,19 @@
   },
   "homepage": "https://github.com/sonofmagic/profile#readme",
   "dependencies": {
+    "axios": "^0.21.1",
     "boxen": "^5.0.1",
     "chalk": "^4.1.2",
     "dayjs": "^1.10.6",
     "node-emoji": "^1.10.0",
     "oo-ascii-tree": "^1.32.0",
+    "prompts": "^2.4.1",
     "qrcode-terminal": "^0.12.0",
+    "sound-play": "^1.1.0",
     "table": "^6.7.1"
   },
   "devDependencies": {
+    "@types/audio-play": "^2.3.0",
     "eslint": "7.12.1",
     "eslint-config-standard": "^16.0.3",
     "eslint-plugin-import": "2.22.1",
