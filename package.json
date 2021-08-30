@@ -1,6 +1,6 @@
 {
   "name": "yangqiming",
-  "version": "1.0.5",
+  "version": "1.1.0",
   "description": "yangqiming's resume",
   "scripts": {
     "dev": "node ./lib/cli.js",
