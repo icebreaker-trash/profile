@@ -27,19 +27,19 @@
     "boxen": "^5.0.1",
     "chalk": "^4.1.2",
     "dayjs": "^1.10.6",
-    "node-emoji": "^1.10.0",
-    "oo-ascii-tree": "^1.32.0",
+    "node-emoji": "^1.11.0",
+    "oo-ascii-tree": "^1.34.0",
     "prompts": "^2.4.1",
-    "qrcode-terminal": "^0.12.0",
-    "sound-play": "^1.1.0",
-    "table": "^6.7.1"
+    "qrcode": "^1.4.4",
+    "sound-play": "^1.1.0"
   },
   "devDependencies": {
     "@types/audio-play": "^2.3.0",
-    "eslint": "7.12.1",
+    "@types/qrcode": "^1.4.1",
+    "eslint": "7.32.0",
     "eslint-config-standard": "^16.0.3",
-    "eslint-plugin-import": "2.22.1",
+    "eslint-plugin-import": "2.24.2",
     "eslint-plugin-node": "11.1.0",
-    "eslint-plugin-promise": "4.2.1"
+    "eslint-plugin-promise": "5.1.0"
   }
 }
