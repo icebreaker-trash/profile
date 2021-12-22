@@ -3,7 +3,8 @@
   "version": "1.2.4",
   "description": "yangqiming's resume",
   "scripts": {
-    "dev": "node ./bin/icebreaker.js"
+    "dev": "node ./bin/icebreaker.js",
+    "test": "cross-env GITHUB_CI=1 node ./bin/icebreaker.js"
   },
   "bin": "bin/icebreaker.js",
   "files": [
@@ -38,6 +39,7 @@
   "devDependencies": {
     "@types/audio-play": "^2.3.0",
     "@types/qrcode": "^1.4.2",
+    "cross-env": "^7.0.3",
     "eslint": "7.32.0",
     "eslint-config-standard": "^16.0.3",
     "eslint-plugin-import": "2.24.2",
