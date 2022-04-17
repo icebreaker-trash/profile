@@ -1,3 +1,6 @@
+
+IMPORTANT!, The Latest version, go to https://github.com/sonofmagic/yangqiming
+
 # This is my chinese resume
 
 You can run this command:
